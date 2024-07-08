@@ -59,6 +59,7 @@ header a:hover {
 
 .container{
     margin-block-start:70px;
+    margin-block-end: 50px;
     margin-left: 200px;
     
         
@@ -110,7 +111,7 @@ header a:hover {
     justify-content: space-between;
     align-items: start;
     width: 65%;
-    margin-block-start: 170px;
+    margin-block-start: 10px;
 
     
 
@@ -120,6 +121,11 @@ header a:hover {
 
     width: 60px;
     height:60px;
+    margin-left: 80px;
+}
+
+.icones p { 
+    margin-left: 80px;
 }
 
 
