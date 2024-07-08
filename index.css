@@ -58,7 +58,7 @@ header a:hover {
 
 
 .container{
-    margin-block-start:100px;
+    margin-block-start:70px;
     margin-left: 200px;
     
         
@@ -101,13 +101,16 @@ header a:hover {
     background:rgb(227, 67, 67);
 }
 
+.search-bar button:hover {
 
+    background:rgb(222, 102, 102);
+}
 .icones {
     display: flex;
     justify-content: space-between;
     align-items: start;
     width: 65%;
-    margin-block-start: 250px;
+    margin-block-start: 170px;
 
     
 
@@ -130,7 +133,18 @@ padding-block-start: 100px;
 
 .image5 img {
 
-width: 250px;
+width: 290px;
 height: 250px;
-
+border-radius: 17%;
+margin-left: 45px;
 }
+
+footer {
+    text-align: center;
+    padding-top: 3.5px;
+    padding-bottom: 3.5px;
+    background-color: #ffffff;
+    color: #000000;
+    position: relative;
+    width: 100%;
+  }
