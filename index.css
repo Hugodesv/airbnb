@@ -1,166 +1,206 @@
-*{
-margin:0;
-padding: 0;
-
+* {
+    margin: 0;
+    padding: 0;
 }
-header { 
 
+header {
     text-decoration: none;
-    color: #000000; 
+    color: #000000;
     background: #ffffff;
-    font-family: 'Quicksand-Light',Arial, Helvetica, sans-serif;    
+    font-family: 'Quicksand-Light', Arial, Helvetica, sans-serif;
     font-size: 14px;
     position: relative;
-    text-align: center;    
-    
-
-
-    
+    text-align: center;
 }
 
 header img {
-
     display: flex;
     width: 90px;
-    height: auto; 
-    flex-direction: row;   
-    
-
+    height: auto;
+    flex-direction: row;
 }
 
 header a {
-text-decoration: none;
-padding: 10px 65px;
-color:black ;
-display: flex;
-flex-direction: row;
-
-
-
-
-
-
+    text-decoration: none;
+    padding: 10px 65px;
+    color: black;
+    display: flex;
+    flex-direction: row;
 }
 
 header ul {
-
     display: flex;
     flex-direction: row;
     list-style-type: none;
 }
 
-header a:hover {
+header li:hover {
+    border-radius: 26%;
+    opacity: 0.7;
+}
 
+header a:hover {
     border-radius: 26%;
     opacity: 0.85;
-    
 }
 
-
-.container{
-    margin-block-start:70px;
+.container {
+    margin-block-start: 70px;
     margin-block-end: 50px;
     margin-left: 200px;
-    
-        
 }
 
-
-
 .search-bar {
-
     width: 700px;
     background: rgba(0, 0, 0, 0.2);
-
     display: flex;
     align-items: center;
     border-radius: 60px;
     padding: 10px 20px;
-    backdrop-filter: BLUR(4px) saturate;
+    backdrop-filter: blur(4px) saturate;
 }
 
 .search-bar input {
     background: transparent;
     flex: 1;
-    border:0;
-    outline:none;
+    border: 0;
+    outline: none;
     padding: 24px;
     font-size: 20px;
 }
 
 .search-bar button img {
-    
     width: 30px;
     margin-left: 12px;
 }
 
 .search-bar button {
     border: 0;
-    border-radius:50%;    
+    border-radius: 50%;
     width: 60px;
     height: 60px;
-    background:rgb(227, 67, 67);
+    background: rgb(227, 67, 67);
 }
 
 .search-bar button:hover {
-
-    background:rgb(222, 102, 102);
+    background: rgb(222, 102, 102);
 }
+
 .icones {
     display: flex;
     justify-content: space-between;
     align-items: start;
     width: 65%;
     margin-block-start: 10px;
+}
 
-    
-
+.icones a {
+    text-decoration: none;
+    color: inherit;
 }
 
 .icones img {
-
     width: 60px;
-    height:60px;
+    height: 60px;
     margin-left: 80px;
 }
 
-.icones p { 
+.icones p {
     margin-left: 80px;
 }
 
+.icones a:hover img {
+    color: white;
+    opacity: 0.5;
+}
 
 .image5 {
+    display: flex;
+    flex-direction: row;
+    padding-block-start: 55px;
+}
 
-display: flex;
-flex-direction: row;
-padding-block-start: 100px;    
-
+.image5 a {
+    position: relative;
+    display: inline-block;
+    margin-left: 60px;
+    margin-top: 60px;
 }
 
 .image5 img {
+    width: 320px;
+    height: 250px;
+    border-radius: 17%;
+}
 
-width: 290px;
-height: 250px;
-border-radius: 17%;
-margin-left: 45px;
+.image5 p {
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    opacity: 0;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.image5 a:hover p {
+    opacity: 1;
+}
+
+.image5 a:hover img {
+    opacity: 0.7;
 }
 
 footer {
+    background-color: #fa5c5c;
+    padding: 20px 0;
+    color: #333;
     text-align: center;
-    padding-top: 3.5px;
-    padding-bottom: 3.5px;
-    background-color: #ffffff;
+}
+
+.mainf {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.footerb {
+    margin: 10px 20px;
+}
+
+.footerb h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #171717;
+}
+
+.footerb p {
+    margin-bottom: 10px;
+    font-size: 14px;
     color: #000000;
-    position: relative;
-    width: 100%;
-  }
+}
 
-  footer a {
-    margin-left: 20px; 
-  }
+.footerb a {
+    margin: 0 10px;
+    text-decoration: none;
+}
 
-  footer p {
-color:rgb(222, 102, 102);
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+.footerb a img {
+    width: 30px;
+    height: auto;
+}
 
-  }
+.footerb a:hover img {
+
+    opacity: 0.7;
+}
+
+.fintxt {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #000000;
+}
